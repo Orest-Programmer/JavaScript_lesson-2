@@ -2,19 +2,19 @@
 function alert(message) {
     console.log(message);
 }
-
+let addition = 0;
 function calc(num1, num2) {
-    var addition = num1 + num2;
+     addition = num1 + num2;
     alert(`num1 + num2 = ${addition}`);
 
-    var addition = num1 - num2;
+     addition = num1 - num2;
     alert(`num1 - num2 = ${addition}`);
    
-    var addition = num1 * num2;
+     addition = num1 * num2;
     alert(`num1 * num2 = ${addition}`);
 
 
-    var addition = num1 / num2;
+     addition = num1 / num2;
     alert(`num1 / num2 = ${addition}`);
 
 
